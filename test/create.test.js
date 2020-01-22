@@ -3,6 +3,7 @@ require('ut-run').run({
     method: 'unit',
     config: {
         smtp: {
+            port: 8025,
             hook: 'smtpSim',
             server: {
                 disabledCommands: ['STARTTLS']
