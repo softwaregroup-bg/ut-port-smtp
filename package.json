@@ -1,6 +1,6 @@
 {
     "name": "ut-port-smtp",
-    "version": "7.0.0",
+    "version": "7.0.1",
     "main": "index.js",
     "dependencies": {
         "through2": "2.0.3",
