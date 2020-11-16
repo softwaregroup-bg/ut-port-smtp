@@ -7,7 +7,7 @@
         "smtp-server": "3.5.0"
     },
     "devDependencies": {
-        "sort-keys": "2.0.0",
+        "sort-keys": "4.1.0",
         "tap": "^14.10.6",
         "ut-port-mail": "^8.4.3",
         "ut-run": "^10.18.1",
@@ -15,7 +15,7 @@
         "why-is-node-running": "^2.1.0"
     },
     "peerDependencies": {
-        "ut-bus": "^7.1.1",
+        "ut-bus": "^7.4.2",
         "ut-run": "^10.0.3"
     },
     "scripts": {
