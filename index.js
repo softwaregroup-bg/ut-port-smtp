@@ -15,6 +15,7 @@ module.exports = ({utPort}) => class smtp extends utPort {
             host: undefined
         };
     }
+
     async start() {
         const result = await super.start(...arguments);
         const stream = this.pull(false, {requests: {}});
@@ -64,8 +65,9 @@ module.exports = ({utPort}) => class smtp extends utPort {
             });
         });
     }
+
     async stop() {
-        await new Promise(resolve => {
+        this.server && await new Promise(resolve => {
             this.server.close(error => {
                 if (error) this.error(error);
                 resolve();
