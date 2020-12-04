@@ -16,6 +16,18 @@ module.exports = ({utPort}) => class smtp extends utPort {
         };
     }
 
+    async init() {
+        const result = await super.init(...arguments);
+        this.config.k8s = {
+            ports: [{
+                name: 'tcp-smtp',
+                service: true,
+                containerPort: this.config.port
+            }]
+        };
+        return result;
+    }
+
     async start() {
         const result = await super.start(...arguments);
         const stream = this.pull(false, {requests: {}});
