@@ -1,3 +1,12 @@
+## [7.0.4](https://github.com/softwaregroup-bg/ut-port-smtp/compare/v7.0.3...v7.0.4) (2020-12-04)
+
+
+### Bug Fixes
+
+* add k8s configuration ([#2](https://github.com/softwaregroup-bg/ut-port-smtp/issues/2)) ([fa1cf79](https://github.com/softwaregroup-bg/ut-port-smtp/commit/fa1cf79d1b1d4ea9e28f87424d91e9dbe2417282))
+
+
+
 ## [7.0.3](https://github.com/softwaregroup-bg/ut-port-smtp/compare/v7.0.2...v7.0.3) (2020-11-19)
 
 
