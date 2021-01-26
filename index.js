@@ -1,5 +1,6 @@
 const smtpServer = require('smtp-server');
 const through2 = require('through2');
+const uuid = require('uuid').v4;
 
 module.exports = ({utPort}) => class smtp extends utPort {
     get defaults() {
@@ -34,6 +35,9 @@ module.exports = ({utPort}) => class smtp extends utPort {
         const meta = (method, callback) => ({
             mtid: 'request',
             method: (this.config.hook || this.config.id) + '.' + method,
+            forward: {
+                'x-b3-traceid': uuid().replace(/-/g, '')
+            },
             reply: (result, $meta) => {
                 if (!$meta || $meta.mtid === 'error') {
                     callback && callback(result);
