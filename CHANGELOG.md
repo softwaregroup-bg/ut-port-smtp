@@ -1,3 +1,12 @@
+## [7.0.5](https://github.com/softwaregroup-bg/ut-port-smtp/compare/v7.0.4...v7.0.5) (2021-01-26)
+
+
+### Bug Fixes
+
+* set .forward ([41bb3f1](https://github.com/softwaregroup-bg/ut-port-smtp/commit/41bb3f1715601ad9d8239e4f421ded5eebdf87da))
+
+
+
 ## [7.0.4](https://github.com/softwaregroup-bg/ut-port-smtp/compare/v7.0.3...v7.0.4) (2020-12-04)
 
 
