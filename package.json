@@ -4,7 +4,8 @@
     "main": "index.js",
     "dependencies": {
         "through2": "2.0.3",
-        "smtp-server": "3.5.0"
+        "smtp-server": "3.5.0",
+        "uuid": "3.3.2"
     },
     "devDependencies": {
         "sort-keys": "4.1.0",
