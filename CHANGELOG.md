@@ -1,3 +1,12 @@
+## [7.0.7](https://github.com/softwaregroup-bg/ut-port-smtp/compare/v7.0.6...v7.0.7) (2022-03-23)
+
+
+### Bug Fixes
+
+* CVE-2021-23400 ([1ef2b41](https://github.com/softwaregroup-bg/ut-port-smtp/commit/1ef2b41e145b232126a9cbb10a3f915de870f6f4))
+
+
+
 ## [7.0.6](https://github.com/softwaregroup-bg/ut-port-smtp/compare/v7.0.5...v7.0.6) (2021-05-24)
 
 
