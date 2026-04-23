@@ -5,7 +5,7 @@
     "dependencies": {
         "through2": "2.0.3",
         "smtp-server": "3.10.0",
-        "uuid": "8.3.2"
+        "uuid": "14.0.0"
     },
     "devDependencies": {
         "sort-keys": "4.1.0",
